@@ -1,0 +1,12 @@
+03-Oct-2020 00:19:20.967 INFOS [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+03-Oct-2020 00:19:45.095 INFOS [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir.war] de l'application web
+03-Oct-2020 00:19:45.386 AVERTISSEMENT [http-nio-8080-exec-32] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+03-Oct-2020 00:19:47.236 INFOS [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Oct-2020 00:19:47.305 INFOS [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir.war] has finished in [2 210] ms
+03-Oct-2020 19:44:59.882 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Oct-2020 19:45:00.015 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Oct-2020 19:45:00.072 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Oct-2020 19:45:00.251 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Oct-2020 19:45:00.259 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Oct-2020 19:45:00.271 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Oct-2020 19:45:00.271 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,4 @@
+03-Oct-2020 00:19:17.380 INFOS [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+03-Oct-2020 00:19:20.438 INFOS [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/demowebsir-1.0-SNAPSHOT'
+03-Oct-2020 00:19:20.969 INFOS [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+03-Oct-2020 00:19:47.305 INFOS [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'

@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [03/Oct/2020:00:17:37 +0200] "GET /demowebsir-1.0-SNAPSHOT/ HTTP/1.1" 200 81
+0:0:0:0:0:0:0:1 - - [03/Oct/2020:00:17:38 +0200] "GET /demowebsir-1.0-SNAPSHOT/ HTTP/1.1" 200 81
+0:0:0:0:0:0:0:1 - - [03/Oct/2020:00:17:39 +0200] "GET /demowebsir-1.0-SNAPSHOT/ HTTP/1.1" 200 81
+0:0:0:0:0:0:0:1 - tomcat [03/Oct/2020:00:19:04 +0200] "POST /manager/html/undeploy?path=/demowebsir-1.0-SNAPSHOT&org.apache.catalina.filters.CSRF_NONCE=A9941A73A5F353DC7FC53B9E8F0B9438 HTTP/1.1" 403 3420
+0:0:0:0:0:0:0:1 - tomcat [03/Oct/2020:00:19:10 +0200] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=C6E0ABD1075CBFA173435B279D6422F8 HTTP/1.1" 403 3420
+0:0:0:0:0:0:0:1 - - [03/Oct/2020:00:19:14 +0200] "GET / HTTP/1.1" 200 11250
+0:0:0:0:0:0:0:1 - - [03/Oct/2020:00:19:15 +0200] "GET / HTTP/1.1" 200 11250
+0:0:0:0:0:0:0:1 - - [03/Oct/2020:00:19:15 +0200] "GET /tomcat.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - tomcat [03/Oct/2020:00:19:17 +0200] "GET /manager/html HTTP/1.1" 200 19568
+0:0:0:0:0:0:0:1 - tomcat [03/Oct/2020:00:19:20 +0200] "POST /manager/html/undeploy?path=/demowebsir-1.0-SNAPSHOT&org.apache.catalina.filters.CSRF_NONCE=1EA4F454358AFD82A999CC42CBF4C958 HTTP/1.1" 200 17714
+0:0:0:0:0:0:0:1 - tomcat [03/Oct/2020:00:19:47 +0200] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=F021049D3A4BC5F57BC5F9813298680E HTTP/1.1" 200 19477
+0:0:0:0:0:0:0:1 - - [03/Oct/2020:00:19:49 +0200] "GET /demowebsir/ HTTP/1.1" 500 2538

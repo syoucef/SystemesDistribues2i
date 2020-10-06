@@ -1,0 +1,48 @@
+25-Sep-2020 09:49:36.933 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+25-Sep-2020 09:49:36.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+25-Sep-2020 09:49:36.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Sep-2020 09:49:36.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Sep-2020 09:49:36.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+25-Sep-2020 09:49:37.062 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 09:49:37.084 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2020 09:49:37.093 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 09:49:37.094 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2020 09:49:37.095 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 614 ms
+25-Sep-2020 09:49:37.123 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Sep-2020 09:49:37.123 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+25-Sep-2020 09:49:37.136 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+25-Sep-2020 09:49:37.535 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [398] ms
+25-Sep-2020 09:49:37.535 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+25-Sep-2020 09:49:37.569 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [34] ms
+25-Sep-2020 09:49:37.569 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+25-Sep-2020 09:49:37.866 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [297] ms
+25-Sep-2020 09:49:37.866 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+25-Sep-2020 09:49:37.881 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [15] ms
+25-Sep-2020 09:49:37.881 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+25-Sep-2020 09:49:37.899 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [18] ms
+25-Sep-2020 09:49:37.902 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 09:49:37.908 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 09:49:37.910 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 815 ms
+25-Sep-2020 21:46:35.592 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 21:46:35.661 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 21:46:35.718 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+25-Sep-2020 21:46:35.752 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 21:46:35.755 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 21:46:35.757 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 21:46:35.757 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

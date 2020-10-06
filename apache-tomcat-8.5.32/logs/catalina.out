@@ -1,0 +1,1374 @@
+24-Jul-2020 18:15:11.155 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+24-Jul-2020 18:15:11.159 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:15:11.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:15:11.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+24-Jul-2020 18:15:11.162 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Jul-2020 18:15:11.325 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:15:11.357 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2020 18:15:11.363 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:15:11.365 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2020 18:15:11.365 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 609 ms
+24-Jul-2020 18:15:11.387 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+24-Jul-2020 18:15:11.388 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+24-Jul-2020 18:15:11.396 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+24-Jul-2020 18:15:11.701 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [304] ms
+24-Jul-2020 18:15:11.701 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+24-Jul-2020 18:15:11.726 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [25] ms
+24-Jul-2020 18:15:11.726 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+24-Jul-2020 18:15:11.933 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [207] ms
+24-Jul-2020 18:15:11.933 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+24-Jul-2020 18:15:11.945 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [12] ms
+24-Jul-2020 18:15:11.945 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+24-Jul-2020 18:15:11.956 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [11] ms
+24-Jul-2020 18:15:11.958 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:15:11.964 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:15:11.967 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 601 ms
+24-Jul-2020 18:15:51.139 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+24-Jul-2020 18:15:51.141 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+24-Jul-2020 18:15:51.141 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+24-Jul-2020 18:15:51.141 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Jul-2020 18:15:51.141 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+24-Jul-2020 18:15:51.141 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Jul-2020 18:15:51.141 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+24-Jul-2020 18:15:51.141 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+24-Jul-2020 18:15:51.141 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jul-2020 18:15:51.142 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:15:51.142 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:15:51.142 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+24-Jul-2020 18:15:51.142 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jul-2020 18:15:51.142 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jul-2020 18:15:51.142 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jul-2020 18:15:51.142 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Jul-2020 18:15:51.143 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jul-2020 18:15:51.143 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:15:51.143 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:15:51.143 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+24-Jul-2020 18:15:51.143 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Jul-2020 18:15:51.235 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:15:51.253 GRAVE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: L''initialisation du gestionnaire de protocole a échoué
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Jul-2020 18:15:51.255 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:15:51.256 GRAVE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: L''initialisation du gestionnaire de protocole a échoué
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+24-Jul-2020 18:15:51.256 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 386 ms
+24-Jul-2020 18:15:51.272 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+24-Jul-2020 18:15:51.272 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+24-Jul-2020 18:15:51.278 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+24-Jul-2020 18:15:51.484 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [206] ms
+24-Jul-2020 18:15:51.484 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+24-Jul-2020 18:15:51.506 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [22] ms
+24-Jul-2020 18:15:51.506 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+24-Jul-2020 18:15:51.672 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [166] ms
+24-Jul-2020 18:15:51.672 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+24-Jul-2020 18:15:51.681 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [9] ms
+24-Jul-2020 18:15:51.681 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+24-Jul-2020 18:15:51.692 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [10] ms
+24-Jul-2020 18:15:51.693 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 436 ms
+24-Jul-2020 18:15:51.697 GRAVE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Jul-2020 18:15:51.697 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:15:51.698 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:15:51.698 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+24-Jul-2020 18:15:51.715 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:15:51.715 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:15:51.715 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:15:51.715 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:36:29.557 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+24-Jul-2020 18:36:29.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+24-Jul-2020 18:36:29.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+24-Jul-2020 18:36:29.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Jul-2020 18:36:29.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+24-Jul-2020 18:36:29.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Jul-2020 18:36:29.560 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+24-Jul-2020 18:36:29.560 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+24-Jul-2020 18:36:29.560 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jul-2020 18:36:29.560 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:36:29.560 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:36:29.560 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+24-Jul-2020 18:36:29.560 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jul-2020 18:36:29.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jul-2020 18:36:29.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jul-2020 18:36:29.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Jul-2020 18:36:29.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jul-2020 18:36:29.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:36:29.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:36:29.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+24-Jul-2020 18:36:29.561 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Jul-2020 18:36:29.655 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:36:29.678 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2020 18:36:29.683 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:36:29.684 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2020 18:36:29.684 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 398 ms
+24-Jul-2020 18:36:29.700 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+24-Jul-2020 18:36:29.700 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+24-Jul-2020 18:36:29.705 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+24-Jul-2020 18:36:29.916 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [210] ms
+24-Jul-2020 18:36:29.916 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+24-Jul-2020 18:36:29.938 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [21] ms
+24-Jul-2020 18:36:29.938 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+24-Jul-2020 18:36:30.132 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [194] ms
+24-Jul-2020 18:36:30.132 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+24-Jul-2020 18:36:30.143 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [11] ms
+24-Jul-2020 18:36:30.143 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+24-Jul-2020 18:36:30.154 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [11] ms
+24-Jul-2020 18:36:30.156 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:36:30.162 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:36:30.163 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 478 ms
+24-Jul-2020 18:37:27.906 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:37:27.908 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Jul-2020 18:37:27.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+24-Jul-2020 18:37:27.910 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Jul-2020 18:37:28.001 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:37:28.022 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2020 18:37:28.027 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:37:28.028 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2020 18:37:28.028 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 375 ms
+24-Jul-2020 18:37:28.044 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+24-Jul-2020 18:37:28.044 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+24-Jul-2020 18:37:28.049 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+24-Jul-2020 18:37:28.254 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [204] ms
+24-Jul-2020 18:37:28.254 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+24-Jul-2020 18:37:28.273 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [19] ms
+24-Jul-2020 18:37:28.273 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+24-Jul-2020 18:37:28.444 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [171] ms
+24-Jul-2020 18:37:28.444 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+24-Jul-2020 18:37:28.453 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [9] ms
+24-Jul-2020 18:37:28.453 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+24-Jul-2020 18:37:28.463 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [10] ms
+24-Jul-2020 18:37:28.465 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2020 18:37:28.469 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2020 18:37:28.470 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 441 ms
+24-Sep-2020 11:08:16.008 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+24-Sep-2020 11:08:16.010 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+24-Sep-2020 11:08:16.010 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+24-Sep-2020 11:08:16.010 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Sep-2020 11:08:16.010 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+24-Sep-2020 11:08:16.010 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Sep-2020 11:08:16.010 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+24-Sep-2020 11:08:16.010 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+24-Sep-2020 11:08:16.011 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+24-Sep-2020 11:08:16.011 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:08:16.011 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:08:16.011 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+24-Sep-2020 11:08:16.011 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2020 11:08:16.012 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2020 11:08:16.012 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2020 11:08:16.012 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Sep-2020 11:08:16.012 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Sep-2020 11:08:16.012 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:08:16.012 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:08:16.012 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+24-Sep-2020 11:08:16.012 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Sep-2020 11:08:16.091 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:08:16.108 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2020 11:08:16.116 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:08:16.117 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2020 11:08:16.117 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 489 ms
+24-Sep-2020 11:08:16.145 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 39 column 37: La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:945)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Sep-2020 11:08:16.146 AVERTISSEMENT [main] org.apache.naming.NamingContext.lookup Une erreur s est produite durant la résolution de la référence
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Sep-2020 11:08:16.147 GRAVE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing Global JNDI Resources
+ javax.naming.NamingException: Une erreur s est produite durant la résolution de la référence [Root exception is org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:856)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	... 19 more
+
+24-Sep-2020 11:08:16.147 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+24-Sep-2020 11:08:16.148 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+24-Sep-2020 11:08:16.150 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 39 column 37: La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:945)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Sep-2020 11:08:16.151 AVERTISSEMENT [main] org.apache.naming.NamingContext.lookup Une erreur s est produite durant la résolution de la référence
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Sep-2020 11:08:16.151 GRAVE [main] org.apache.catalina.realm.UserDatabaseRealm.startInternal Exception lors de la recherche dans la base de données utilisateurs avec la clé [UserDatabase]
+ javax.naming.NamingException: Une erreur s est produite durant la résolution de la référence [Root exception is org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:856)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	... 20 more
+
+24-Sep-2020 11:08:16.151 GRAVE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+ org.apache.catalina.LifecycleException: Failed to start component [Realm[UserDatabaseRealm]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Aucun composant base de données utilisateurs trouvé pour la clé [UserDatabase]
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:239)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 17 more
+
+24-Sep-2020 11:08:16.158 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+24-Sep-2020 11:08:16.441 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [282] ms
+24-Sep-2020 11:08:16.441 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+24-Sep-2020 11:08:16.467 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [26] ms
+24-Sep-2020 11:08:16.467 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+24-Sep-2020 11:08:16.681 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [213] ms
+24-Sep-2020 11:08:16.681 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+24-Sep-2020 11:08:16.691 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [10] ms
+24-Sep-2020 11:08:16.691 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+24-Sep-2020 11:08:16.703 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [12] ms
+24-Sep-2020 11:08:16.705 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:08:16.710 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:08:16.711 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 593 ms
+24-Sep-2020 11:13:33.598 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:13:33.603 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:13:33.658 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+24-Sep-2020 11:13:33.679 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:13:33.681 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:13:33.681 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:13:33.682 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:13:57.923 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:13:57.925 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+24-Sep-2020 11:13:57.926 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Sep-2020 11:13:57.981 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:13:57.991 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2020 11:13:57.996 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:13:57.997 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2020 11:13:57.997 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 339 ms
+24-Sep-2020 11:13:58.017 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 39 column 37: La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:945)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Sep-2020 11:13:58.018 AVERTISSEMENT [main] org.apache.naming.NamingContext.lookup Une erreur s est produite durant la résolution de la référence
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Sep-2020 11:13:58.018 GRAVE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing Global JNDI Resources
+ javax.naming.NamingException: Une erreur s est produite durant la résolution de la référence [Root exception is org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:856)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	... 19 more
+
+24-Sep-2020 11:13:58.019 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+24-Sep-2020 11:13:58.019 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+24-Sep-2020 11:13:58.022 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 39 column 37: La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:945)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Sep-2020 11:13:58.022 AVERTISSEMENT [main] org.apache.naming.NamingContext.lookup Une erreur s est produite durant la résolution de la référence
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+24-Sep-2020 11:13:58.022 GRAVE [main] org.apache.catalina.realm.UserDatabaseRealm.startInternal Exception lors de la recherche dans la base de données utilisateurs avec la clé [UserDatabase]
+ javax.naming.NamingException: Une erreur s est produite durant la résolution de la référence [Root exception is org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:856)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; La valeur de l'attribut "password" associé à un type d'élément "user" ne doit pas contenir le caractère '<'.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1540)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	... 20 more
+
+24-Sep-2020 11:13:58.023 GRAVE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+ org.apache.catalina.LifecycleException: Failed to start component [Realm[UserDatabaseRealm]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Aucun composant base de données utilisateurs trouvé pour la clé [UserDatabase]
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:239)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 17 more
+
+24-Sep-2020 11:13:58.028 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+24-Sep-2020 11:13:58.219 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [190] ms
+24-Sep-2020 11:13:58.219 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+24-Sep-2020 11:13:58.241 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [21] ms
+24-Sep-2020 11:13:58.241 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+24-Sep-2020 11:13:58.410 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [168] ms
+24-Sep-2020 11:13:58.410 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+24-Sep-2020 11:13:58.420 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [9] ms
+24-Sep-2020 11:13:58.420 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+24-Sep-2020 11:13:58.431 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [11] ms
+24-Sep-2020 11:13:58.432 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:13:58.436 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:13:58.438 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 440 ms
+24-Sep-2020 11:14:54.620 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:14:54.625 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:14:54.679 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+24-Sep-2020 11:14:54.698 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:14:54.699 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:14:54.700 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:14:54.700 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:16:29.855 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+24-Sep-2020 11:16:29.857 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+24-Sep-2020 11:16:29.857 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+24-Sep-2020 11:16:29.857 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Sep-2020 11:16:29.857 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+24-Sep-2020 11:16:29.857 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Sep-2020 11:16:29.857 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+24-Sep-2020 11:16:29.857 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+24-Sep-2020 11:16:29.857 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+24-Sep-2020 11:16:29.858 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:16:29.858 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:16:29.858 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+24-Sep-2020 11:16:29.858 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2020 11:16:29.858 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2020 11:16:29.858 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2020 11:16:29.858 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Sep-2020 11:16:29.858 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Sep-2020 11:16:29.859 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:16:29.859 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 11:16:29.859 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+24-Sep-2020 11:16:29.859 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Sep-2020 11:16:29.915 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:16:29.925 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2020 11:16:29.932 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:16:29.933 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2020 11:16:29.933 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 340 ms
+24-Sep-2020 11:16:29.951 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+24-Sep-2020 11:16:29.951 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+24-Sep-2020 11:16:29.957 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+24-Sep-2020 11:16:30.150 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [192] ms
+24-Sep-2020 11:16:30.150 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+24-Sep-2020 11:16:30.172 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [22] ms
+24-Sep-2020 11:16:30.172 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+24-Sep-2020 11:16:30.341 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [169] ms
+24-Sep-2020 11:16:30.341 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+24-Sep-2020 11:16:30.350 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [9] ms
+24-Sep-2020 11:16:30.350 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+24-Sep-2020 11:16:30.361 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [11] ms
+24-Sep-2020 11:16:30.362 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 11:16:30.366 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 11:16:30.368 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 434 ms
+24-Sep-2020 13:34:12.875 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 13:34:12.881 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 13:34:12.936 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+24-Sep-2020 13:34:12.969 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 13:34:12.970 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 13:34:12.971 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 13:34:12.972 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 21:21:09.094 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 21:21:09.100 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 21:21:09.101 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+24-Sep-2020 21:21:09.101 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2020 21:21:09.101 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2020 21:21:09.101 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2020 21:21:09.101 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Sep-2020 21:21:09.101 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Sep-2020 21:21:09.101 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 21:21:09.102 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+24-Sep-2020 21:21:09.102 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+24-Sep-2020 21:21:09.102 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Sep-2020 21:21:09.215 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 21:21:09.235 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2020 21:21:09.241 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 21:21:09.243 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Sep-2020 21:21:09.243 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 544 ms
+24-Sep-2020 21:21:09.266 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+24-Sep-2020 21:21:09.267 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+24-Sep-2020 21:21:09.275 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+24-Sep-2020 21:21:09.540 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [264] ms
+24-Sep-2020 21:21:09.540 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+24-Sep-2020 21:21:09.645 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [105] ms
+24-Sep-2020 21:21:09.645 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+24-Sep-2020 21:21:09.864 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [218] ms
+24-Sep-2020 21:21:09.864 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+24-Sep-2020 21:21:09.874 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [10] ms
+24-Sep-2020 21:21:09.875 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+24-Sep-2020 21:21:09.887 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [12] ms
+24-Sep-2020 21:21:09.888 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 21:21:09.893 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 21:21:09.894 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 651 ms
+24-Sep-2020 21:22:25.035 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 21:22:25.040 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 21:22:25.096 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+24-Sep-2020 21:22:25.115 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 21:22:25.116 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Sep-2020 21:22:25.117 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Sep-2020 21:22:25.118 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 09:49:36.933 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+25-Sep-2020 09:49:36.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+25-Sep-2020 09:49:36.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+25-Sep-2020 09:49:36.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Sep-2020 09:49:36.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Sep-2020 09:49:36.939 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+25-Sep-2020 09:49:36.940 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+25-Sep-2020 09:49:37.062 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 09:49:37.084 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2020 09:49:37.093 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 09:49:37.094 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2020 09:49:37.095 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 614 ms
+25-Sep-2020 09:49:37.123 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Sep-2020 09:49:37.123 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+25-Sep-2020 09:49:37.136 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+25-Sep-2020 09:49:37.535 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [398] ms
+25-Sep-2020 09:49:37.535 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+25-Sep-2020 09:49:37.569 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [34] ms
+25-Sep-2020 09:49:37.569 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+25-Sep-2020 09:49:37.866 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [297] ms
+25-Sep-2020 09:49:37.866 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+25-Sep-2020 09:49:37.881 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [15] ms
+25-Sep-2020 09:49:37.881 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+25-Sep-2020 09:49:37.899 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [18] ms
+25-Sep-2020 09:49:37.902 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 09:49:37.908 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 09:49:37.910 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 815 ms
+25-Sep-2020 21:46:35.592 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 21:46:35.661 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 21:46:35.718 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+25-Sep-2020 21:46:35.752 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 21:46:35.755 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2020 21:46:35.757 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Sep-2020 21:46:35.757 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+01-Oct-2020 23:34:46.383 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+01-Oct-2020 23:34:46.387 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+01-Oct-2020 23:34:46.387 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+01-Oct-2020 23:34:46.387 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-Oct-2020 23:34:46.465 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Oct-2020 23:34:46.483 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Oct-2020 23:34:46.489 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-Oct-2020 23:34:46.490 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Oct-2020 23:34:46.490 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 445 ms
+01-Oct-2020 23:34:46.513 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+01-Oct-2020 23:34:46.513 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+01-Oct-2020 23:34:46.519 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+01-Oct-2020 23:34:46.771 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [251] ms
+01-Oct-2020 23:34:46.771 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+01-Oct-2020 23:34:46.794 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [23] ms
+01-Oct-2020 23:34:46.794 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+01-Oct-2020 23:34:47.010 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [216] ms
+01-Oct-2020 23:34:47.010 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+01-Oct-2020 23:34:47.020 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [10] ms
+01-Oct-2020 23:34:47.020 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+01-Oct-2020 23:34:47.032 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [11] ms
+01-Oct-2020 23:34:47.033 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Oct-2020 23:34:47.037 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-Oct-2020 23:34:47.039 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 548 ms
+01-Oct-2020 23:40:44.299 INFOS [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+01-Oct-2020 23:40:44.344 INFOS [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Oct-2020 23:40:44.347 INFOS [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [47] ms
+01-Oct-2020 23:44:32.869 INFOS [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+01-Oct-2020 23:44:41.345 INFOS [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+01-Oct-2020 23:44:41.375 INFOS [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Oct-2020 23:44:41.377 INFOS [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [32] ms
+01-Oct-2020 23:44:54.547 INFOS [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+01-Oct-2020 23:46:09.220 INFOS [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+01-Oct-2020 23:46:09.255 INFOS [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Oct-2020 23:46:09.256 INFOS [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [36] ms
+02-Oct-2020 00:06:08.931 INFOS [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:06:26.050 INFOS [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:06:26.077 INFOS [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:06:26.078 INFOS [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [28] ms
+02-Oct-2020 00:10:30.804 INFOS [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:11:21.826 INFOS [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:11:21.918 INFOS [http-nio-8080-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:11:21.923 INFOS [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [97] ms
+02-Oct-2020 00:16:17.546 INFOS [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:16:27.721 INFOS [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:16:27.801 INFOS [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:16:27.806 INFOS [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [85] ms
+02-Oct-2020 00:20:36.617 INFOS [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:20:46.370 INFOS [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:20:46.435 INFOS [http-nio-8080-exec-46] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:20:46.440 INFOS [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [70] ms
+02-Oct-2020 00:22:36.694 INFOS [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:22:46.217 INFOS [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:22:46.279 INFOS [http-nio-8080-exec-51] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:22:46.286 INFOS [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [69] ms
+02-Oct-2020 00:28:52.320 INFOS [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:29:02.799 INFOS [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:29:02.869 INFOS [http-nio-8080-exec-45] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:29:02.875 INFOS [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [75] ms
+02-Oct-2020 00:36:27.626 INFOS [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:37:34.552 INFOS [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:37:34.622 INFOS [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:37:34.628 INFOS [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [77] ms
+02-Oct-2020 00:38:17.758 INFOS [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:38:27.789 INFOS [http-nio-8080-exec-68] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:38:27.846 INFOS [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:38:27.851 INFOS [http-nio-8080-exec-68] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [61] ms
+02-Oct-2020 00:39:19.310 INFOS [http-nio-8080-exec-76] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:39:28.815 INFOS [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:39:28.870 INFOS [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:39:28.874 INFOS [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [60] ms
+02-Oct-2020 00:41:57.851 INFOS [http-nio-8080-exec-81] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:42:06.651 INFOS [http-nio-8080-exec-79] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:42:06.706 INFOS [http-nio-8080-exec-79] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:42:06.709 INFOS [http-nio-8080-exec-79] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [58] ms
+02-Oct-2020 00:46:09.853 INFOS [http-nio-8080-exec-87] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 00:46:19.384 INFOS [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 00:46:19.441 INFOS [http-nio-8080-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 00:46:19.445 INFOS [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [61] ms
+02-Oct-2020 00:54:28.122 INFOS [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 09:28:26.057 INFOS [http-nio-8080-exec-112] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 09:28:26.154 INFOS [http-nio-8080-exec-112] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] has finished in [97] ms
+02-Oct-2020 09:29:55.149 INFOS [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demoweb2i-1.0-SNAPSHOT]
+02-Oct-2020 09:30:04.335 INFOS [http-nio-8080-exec-113] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 09:30:04.432 INFOS [http-nio-8080-exec-113] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] has finished in [97] ms
+02-Oct-2020 09:47:35.533 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 09:47:35.538 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 09:47:35.592 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+02-Oct-2020 09:47:35.609 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 09:47:35.611 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 09:47:35.612 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 09:47:35.612 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 09:48:29.601 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+02-Oct-2020 09:48:29.602 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+02-Oct-2020 09:48:29.602 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+02-Oct-2020 09:48:29.602 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+02-Oct-2020 09:48:29.603 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Oct-2020 09:48:29.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Oct-2020 09:48:29.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Oct-2020 09:48:29.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Oct-2020 09:48:29.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Oct-2020 09:48:29.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 09:48:29.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 09:48:29.604 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+02-Oct-2020 09:48:29.604 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Oct-2020 09:48:29.664 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 09:48:29.675 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Oct-2020 09:48:29.682 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 09:48:29.683 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Oct-2020 09:48:29.684 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 359 ms
+02-Oct-2020 09:48:29.702 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+02-Oct-2020 09:48:29.702 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+02-Oct-2020 09:48:29.717 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 09:48:30.119 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] has finished in [401] ms
+02-Oct-2020 09:48:30.120 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+02-Oct-2020 09:48:30.132 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [12] ms
+02-Oct-2020 09:48:30.132 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+02-Oct-2020 09:48:30.155 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [23] ms
+02-Oct-2020 09:48:30.155 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+02-Oct-2020 09:48:30.330 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [175] ms
+02-Oct-2020 09:48:30.330 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+02-Oct-2020 09:48:30.341 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [11] ms
+02-Oct-2020 09:48:30.341 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+02-Oct-2020 09:48:30.357 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [16] ms
+02-Oct-2020 09:48:30.360 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 09:48:30.366 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 09:48:30.368 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 683 ms
+02-Oct-2020 12:10:53.360 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 12:10:53.362 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 12:10:53.363 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+02-Oct-2020 12:10:53.364 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Oct-2020 12:10:53.428 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 12:10:53.440 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Oct-2020 12:10:53.448 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 12:10:53.450 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Oct-2020 12:10:53.450 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 401 ms
+02-Oct-2020 12:10:53.472 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+02-Oct-2020 12:10:53.472 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+02-Oct-2020 12:10:53.493 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 12:10:53.907 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] has finished in [413] ms
+02-Oct-2020 12:10:53.907 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+02-Oct-2020 12:10:53.930 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [23] ms
+02-Oct-2020 12:10:53.930 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+02-Oct-2020 12:10:53.953 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [23] ms
+02-Oct-2020 12:10:53.953 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+02-Oct-2020 12:10:54.130 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [177] ms
+02-Oct-2020 12:10:54.130 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+02-Oct-2020 12:10:54.140 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [10] ms
+02-Oct-2020 12:10:54.140 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+02-Oct-2020 12:10:54.153 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [13] ms
+02-Oct-2020 12:10:54.155 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 12:10:54.161 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 12:10:54.162 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 712 ms
+02-Oct-2020 16:50:43.370 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 16:50:43.372 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+02-Oct-2020 16:50:43.373 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Oct-2020 16:50:43.435 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 16:50:43.445 GRAVE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: L''initialisation du gestionnaire de protocole a échoué
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+02-Oct-2020 16:50:43.446 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 16:50:43.447 GRAVE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: L''initialisation du gestionnaire de protocole a échoué
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+02-Oct-2020 16:50:43.447 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 353 ms
+02-Oct-2020 16:50:43.469 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+02-Oct-2020 16:50:43.469 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+02-Oct-2020 16:50:43.485 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 16:50:43.811 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demoweb2i-1.0-SNAPSHOT.war] has finished in [325] ms
+02-Oct-2020 16:50:43.811 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+02-Oct-2020 16:50:43.825 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [13] ms
+02-Oct-2020 16:50:43.825 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+02-Oct-2020 16:50:43.854 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [29] ms
+02-Oct-2020 16:50:43.854 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+02-Oct-2020 16:50:44.016 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [162] ms
+02-Oct-2020 16:50:44.017 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+02-Oct-2020 16:50:44.026 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [9] ms
+02-Oct-2020 16:50:44.026 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+02-Oct-2020 16:50:44.040 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [14] ms
+02-Oct-2020 16:50:44.042 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 594 ms
+02-Oct-2020 16:50:44.044 GRAVE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+02-Oct-2020 16:50:44.045 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 16:50:44.045 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 16:50:44.045 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+02-Oct-2020 16:50:44.061 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 16:50:44.061 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Oct-2020 16:50:44.062 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 16:50:44.062 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2020 16:51:11.309 INFOS [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demoweb2i-1.0-SNAPSHOT]
+02-Oct-2020 16:51:56.303 INFOS [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 16:51:56.599 AVERTISSEMENT [http-nio-8080-exec-8] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Oct-2020 16:51:57.711 INFOS [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 16:51:57.801 INFOS [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [1 497] ms
+02-Oct-2020 17:13:51.122 INFOS [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 17:15:03.688 INFOS [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 17:15:03.952 AVERTISSEMENT [http-nio-8080-exec-22] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Oct-2020 17:15:05.045 INFOS [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2020 17:15:05.104 INFOS [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [1 416] ms
+02-Oct-2020 17:18:48.907 INFOS [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 17:19:00.073 INFOS [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 17:19:00.150 INFOS [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [78] ms
+02-Oct-2020 17:20:32.029 INFOS [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+02-Oct-2020 17:20:38.972 INFOS [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+02-Oct-2020 17:20:39.047 INFOS [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [75] ms
+03-Oct-2020 00:19:20.967 INFOS [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+03-Oct-2020 00:19:45.095 INFOS [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir.war] de l'application web
+03-Oct-2020 00:19:45.386 AVERTISSEMENT [http-nio-8080-exec-32] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+03-Oct-2020 00:19:47.236 INFOS [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Oct-2020 00:19:47.305 INFOS [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir.war] has finished in [2 210] ms
+03-Oct-2020 19:44:59.882 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Oct-2020 19:45:00.015 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Oct-2020 19:45:00.072 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+03-Oct-2020 19:45:00.251 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Oct-2020 19:45:00.259 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Oct-2020 19:45:00.271 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Oct-2020 19:45:00.271 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Oct-2020 13:26:23.965 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+05-Oct-2020 13:26:23.970 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+05-Oct-2020 13:26:23.970 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+05-Oct-2020 13:26:23.970 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Oct-2020 13:26:23.970 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+05-Oct-2020 13:26:23.971 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Oct-2020 13:26:23.971 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+05-Oct-2020 13:26:23.971 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+05-Oct-2020 13:26:23.971 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+05-Oct-2020 13:26:23.971 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+05-Oct-2020 13:26:23.971 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+05-Oct-2020 13:26:23.972 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Oct-2020 13:26:24.088 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Oct-2020 13:26:24.109 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Oct-2020 13:26:24.115 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Oct-2020 13:26:24.116 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Oct-2020 13:26:24.117 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 541 ms
+05-Oct-2020 13:26:24.143 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Oct-2020 13:26:24.143 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+05-Oct-2020 13:26:24.163 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir.war] de l'application web
+05-Oct-2020 13:26:24.410 AVERTISSEMENT [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+05-Oct-2020 13:26:25.894 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Oct-2020 13:26:26.052 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir.war] has finished in [1 889] ms
+05-Oct-2020 13:26:26.053 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+05-Oct-2020 13:26:26.066 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [13] ms
+05-Oct-2020 13:26:26.066 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+05-Oct-2020 13:26:26.089 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [23] ms
+05-Oct-2020 13:26:26.089 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+05-Oct-2020 13:26:26.247 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [158] ms
+05-Oct-2020 13:26:26.247 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+05-Oct-2020 13:26:26.258 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [11] ms
+05-Oct-2020 13:26:26.259 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+05-Oct-2020 13:26:26.272 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [13] ms
+05-Oct-2020 13:26:26.274 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Oct-2020 13:26:26.279 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Oct-2020 13:26:26.280 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 2163 ms
+05-Oct-2020 13:29:19.856 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Oct-2020 13:29:19.860 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Oct-2020 13:29:19.914 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Oct-2020 13:29:19.966 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Oct-2020 13:29:19.968 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Oct-2020 13:29:19.968 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Oct-2020 13:29:19.969 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

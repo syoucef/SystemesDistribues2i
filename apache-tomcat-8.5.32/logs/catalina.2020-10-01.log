@@ -1,0 +1,52 @@
+01-Oct-2020 23:34:46.383 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/samiryoucef/.sdkman/candidates/java/8.0.265.hs-adpt/jre
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+01-Oct-2020 23:34:46.385 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/conf/logging.properties
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Oct-2020 23:34:46.386 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+01-Oct-2020 23:34:46.387 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32
+01-Oct-2020 23:34:46.387 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/temp
+01-Oct-2020 23:34:46.387 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/samiryoucef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-Oct-2020 23:34:46.465 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Oct-2020 23:34:46.483 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Oct-2020 23:34:46.489 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-Oct-2020 23:34:46.490 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Oct-2020 23:34:46.490 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 445 ms
+01-Oct-2020 23:34:46.513 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+01-Oct-2020 23:34:46.513 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+01-Oct-2020 23:34:46.519 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] de l'application web
+01-Oct-2020 23:34:46.771 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/docs] has finished in [251] ms
+01-Oct-2020 23:34:46.771 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] de l'application web
+01-Oct-2020 23:34:46.794 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/manager] has finished in [23] ms
+01-Oct-2020 23:34:46.794 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] de l'application web
+01-Oct-2020 23:34:47.010 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/examples] has finished in [216] ms
+01-Oct-2020 23:34:47.010 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] de l'application web
+01-Oct-2020 23:34:47.020 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/ROOT] has finished in [10] ms
+01-Oct-2020 23:34:47.020 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] de l'application web
+01-Oct-2020 23:34:47.032 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/host-manager] has finished in [11] ms
+01-Oct-2020 23:34:47.033 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Oct-2020 23:34:47.037 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-Oct-2020 23:34:47.039 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 548 ms
+01-Oct-2020 23:40:44.299 INFOS [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+01-Oct-2020 23:40:44.344 INFOS [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Oct-2020 23:40:44.347 INFOS [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [47] ms
+01-Oct-2020 23:44:32.869 INFOS [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+01-Oct-2020 23:44:41.345 INFOS [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+01-Oct-2020 23:44:41.375 INFOS [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Oct-2020 23:44:41.377 INFOS [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [32] ms
+01-Oct-2020 23:44:54.547 INFOS [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/demowebsir-1.0-SNAPSHOT]
+01-Oct-2020 23:46:09.220 INFOS [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] de l'application web
+01-Oct-2020 23:46:09.255 INFOS [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Oct-2020 23:46:09.256 INFOS [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/samiryoucef/Desktop/apache-tomcat-8.5.32/webapps/demowebsir-1.0-SNAPSHOT.war] has finished in [36] ms
